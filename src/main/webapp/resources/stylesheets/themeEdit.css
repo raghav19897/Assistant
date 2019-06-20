@@ -1,0 +1,194 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden; /*  Disable scrollbars */
+    display: block;
+}
+
+@font-face {
+    font-family: "Px437 IBM Conv-2x";
+    src: url("/resources/fonts/Px437_IBM_Conv-2x.ttf");
+}
+
+#command_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 4%;
+    width: 50%;
+    top: 48%;
+    left: 25%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#search_but{
+    border-radius: 25px;
+    background: transparent;
+    position: fixed;
+    height: 3%;
+    top: 55%;
+    left: 48%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#play_but{
+    background: transparent url("/resources/icons/play-button (1).png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    border: none;
+    height: 3%;
+    width: 2.82%;
+    top: 48.5%;
+    left: 76%;
+}
+
+#notes_label{
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 3%;
+    width: 4%;
+    top: 9%;
+    right: 12%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#notes_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    resize: none;
+    height: 43%;
+    width: 15%;
+    top: 15%;
+    right: 1%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#notes_save_but{
+    background: transparent url("/resources/icons/save_button.png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    border: none;
+    height: 3.31%;
+    top: 10%;
+    right: 1%;
+}
+
+#reminder_label{
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 3%;
+    width: 4%;
+    top: 65%;
+    right: 12%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#add_reminder{
+    position: fixed;
+    height: 2%;
+    top: 65%;
+    right: 1%;
+}
+
+#reminder_box{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 15%;
+    top: 70%;
+    right: 1%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#date_pick{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 8.5%;
+    top: 75%;
+    right: 7.5%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#time_set{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 6%;
+    top: 75%;
+    right: 1%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#reminder_but{
+    border-radius: 25px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    position: fixed;
+    top: 80%;
+    right: 1%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
+
+#reminder{
+    text-align: center;
+    border-color: burlywood;
+    background: green;
+    position: fixed;
+    height: 40%;
+    width: 80%;
+    top: 30%;
+    left: 10%;
+    color: black;
+    font-family: "Px437 IBM Conv-2x";
+}
+
+#logout_but{
+    border-radius: 10px;
+    background: transparent;
+    position: fixed;
+    height: 3%;
+    top: 1%;
+    right: 1%;
+    color: green;
+    font-family: "Px437 IBM Conv-2x";
+    font-size: 50%;
+}
