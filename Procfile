@@ -1,2 +1,2 @@
 
-web: java -war target/Assistant.war
+web: java -jar target/Assistant.war
