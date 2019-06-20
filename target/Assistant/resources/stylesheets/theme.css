@@ -1,0 +1,194 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#191F32, #191F32);
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden; /*  Disable scrollbars */
+    display: block;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("/resources/fonts/JosefinSans-Bold.ttf");
+}
+
+#command_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 4%;
+    width: 50%;
+    top: 48%;
+    left: 25%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#search_but{
+    border-radius: 25px;
+    background: transparent;
+    position: fixed;
+    height: 3%;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#play_but{
+    background: transparent url("/resources/icons/play-button (1).png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    border: none;
+    height: 3%;
+    width: 2.82%;
+    top: 48.5%;
+    left: 76%;
+}
+
+#notes_label{
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 3%;
+    width: 4%;
+    top: 9%;
+    right: 12%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#notes_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    resize: none;
+    height: 43%;
+    width: 15%;
+    top: 15%;
+    right: 1%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#notes_save_but{
+    background: transparent url("/resources/icons/save_button.png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    border: none;
+    height: 3.31%;
+    top: 10%;
+    right: 1%;
+}
+
+#reminder_label{
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 3%;
+    width: 4%;
+    top: 65%;
+    right: 12%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#add_reminder{
+    position: fixed;
+    height: 3%;
+    top: 65%;
+    right: 1%;
+}
+
+#reminder_box{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 15%;
+    top: 70%;
+    right: 1%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#date_pick{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 8.5%;
+    top: 75%;
+    right: 7.5%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#time_set{
+    border-radius: 10px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    border: none;
+    position: fixed;
+    width: 6%;
+    top: 75%;
+    right: 1%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#reminder_but{
+    border-radius: 25px;
+    visibility: hidden;
+    height: 0;
+    background: transparent;
+    position: fixed;
+    top: 80%;
+    right: 1%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#reminder{
+    text-align: center;
+    border-color: burlywood;
+    background: aliceblue;
+    position: fixed;
+    height: 20%;
+    width: 20%;
+    top: 40%;
+    left: 5%;
+    color: black;
+    font-family: "Josefin Sans";
+}
+
+#logout_but{
+    border-radius: 10px;
+    background: transparent;
+    position: fixed;
+    height: 3%;
+    top: 1%;
+    right: 1%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#191F32, #191F32);
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden; /*  Disable scrollbars */
+    display: block;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("/resources/fonts/JosefinSans-Bold.ttf");
+}
+
+#user_box{
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    height: 4%;
+    width: 16%;
+    top: 42%;
+    left: 42%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#password_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 4%;
+    width: 16%;
+    top: 48%;
+    left: 42%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#name_box{
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 4%;
+    width: 16%;
+    top: 54%;
+    left: 42%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#create_but{
+    border-radius: 25px;
+    background: transparent;
+    position: fixed;
+    height: 3%;
+    top: 60%;
+    left: 48%;
+    color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#error{
+    background: transparent;
+    border: none;
+    position: fixed;
+    height: 3%;
+    top: 65%;
+    left: 46%;
+    color: gray;
+    text-decoration: inherit;
+    font-family: "Josefin Sans";
+    font-size: 104%;;
+}
+
+#description{
+    background: transparent;
+    border: none;
+    position: fixed;
+    top: 5%;
+    color: white;
+    font-family: NEOTERIC;
+    font-size: 40px;
+}
