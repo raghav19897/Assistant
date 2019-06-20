@@ -1,12 +1,13 @@
 package com.raghav.assistant;
 
+import com.raghav.assistant.config.SecurityConfig;
 import com.raghav.assistant.config.SpringConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return null;
+        return new Class[] {SecurityConfig.class};
     }
 
     @Override
