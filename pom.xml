@@ -13,7 +13,7 @@
     <encoding>UTF-8</encoding>
     <source-compiler>1.8</source-compiler>
     <target-compiler>1.8</target-compiler>
-    <spring-version>5.1.5.RELEASE</spring-version>
+    <spring-version>5.2.20.RELEASE</spring-version>
 
   </properties>
 
